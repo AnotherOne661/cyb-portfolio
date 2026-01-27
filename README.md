@@ -72,4 +72,4 @@ Projetada com foco em **desempenho de sistema**, **arquitetura de contêineres**
 npm install
 npm run dev
 ```
-![SAMURAI](https://cyberpunk.fandom.com/wiki/Samurai?file=CP2077_Samurai_Logo.jpeg)
+![SAMURAI](https://static.wikia.nocookie.net/cyberpunk/images/2/23/CP2077_Samurai_Logo.jpeg/revision/latest?cb=20210425144838)

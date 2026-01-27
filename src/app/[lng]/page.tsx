@@ -84,7 +84,7 @@ export default async function Home({params} : PageProps) {
               {/* TAGS / STATUS BAR */}
               <div className="flex flex-wrap gap-4 pt-4">
                 <div className="flex items-center">
-                  <span className="bg-black text-cyber-blue px-4 py-2 font-cyber text-sm md:text-lg tracking-widest uppercase flex items-center gap-2">
+                  <span className="bg-black text-edge-cyber  text-play  px-4 py-2 font-cyber text-sm md:text-lg tracking-widest uppercase flex items-center gap-2">
                     <span className="w-2 h-2 bg-cyber-blue animate-ping rounded-full"></span>
                     Junior Full-Stack Web Dev
                   </span>

@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+/* 1. Definimos las fuentes físicas */
+@font-face {
+  font-family: "Cyberpunk";
+  src: url("/fonts/Cyberpunk_font.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PlayBold";
+  src: url("/fonts/Play-Bold.ttf") format("truetype");
+}
+
+/* 2. Configuramos el tema de Tailwind v4 */
+@theme {
+  --font-cyber: "Cyberpunk", sans-serif;
+  --font-play: "PlayBold", sans-serif;
+  
+  --color-cyber-yellow: #fcee09;
+  --color-cyber-red: #ff003c;
+  --color-cyber-blue: #00f0ff;
+  --color-cyber-dark: #050a0e;
+}
+
+/* 3. Estilos base y animaciones */
+@layer base {
+  body {
+    background: linear-gradient(315deg, var(--color-cyber-dark) 3%, var(--color-cyber-yellow) 68%, var(--color-cyber-red) 98%);
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    animation: gradient-bg 15s ease infinite;
+    @apply min-h-screen text-black antialiased overflow-x-hidden;
+  }
+}
+
+@keyframes gradient-bg {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+/* Clases de utilidad personalizadas para tus efectos antiguos */
+@utility cyp-text {
+  font-family: var(--font-cyber);
+  letter-spacing: 0.1em;
+}
+@keyframes wave {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-25%); }
+  50% { transform: translateX(-50%); }
+  75% { transform: translateX(-25%); }
+}
+
+@utility border-image-gradient {
+  border-image: linear-gradient(to bottom right, var(--color-cyber-red), var(--color-cyber-yellow)) 1 100%;
+}
+@utility bg-fixed-window {
+  background-image: url('/images/profbg.webp');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+/* Sombra que emula un borde suave (Outline con Shadow) */
+@utility text-edge-cyber {
+  color: #050a0e !important; /* Forzamos el color oscuro de la letra */
+  text-shadow: 
+    1px 1px 0 #00f0ff,
+    -1px -1px 0 #00f0ff,
+    1px -1px 0 #00f0ff,
+    -1px 1px 0 #00f0ff,
+    0px 0px 8px rgba(0, 240, 255, 0.8);
+}
+
+@utility text-edge-red {
+  color: white;
+  text-shadow: 
+    1px 1px 0 var(--color-cyber-red),
+    -1px -1px 0 var(--color-cyber-red),
+    1px -1px 0 var(--color-cyber-red),
+    -1px 1px 0 var(--color-cyber-red),
+    0px 0px 10px var(--color-cyber-red);
+}
+
+@utility text-edge-yellow {
+  color: var(--color-cyber-dark);
+  text-shadow: 
+    1px 1px 0 var(--color-cyber-yellow),
+    -1px -1px 0 var(--color-cyber-yellow),
+    1px -1px 0 var(--color-cyber-yellow),
+    -1px 1px 0 var(--color-cyber-yellow);
+}

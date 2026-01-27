@@ -1,0 +1,12 @@
+{
+  "hero": {
+    "bio_p1": "Como <span class='text-cyber-blue italic'>Junior Developer</span>, a minha curiosidade define-me. Especializo-me na construção de aplicações web dinâmicas usando tecnologias de ponta, mas meu verdadeiro motor é a inovação: atualmente desenho soluções focadas na <span class='bg-cyber-yellow/30 px-1'>aplicação prática de IA.</span>",
+    "bio_p2": "Acredito que uma grande aplicação requer uma base sólida, por isso dediquei grande parte da minha formação à <span class='text-cyber-dark font-black underline decoration-cyber-blue decoration-2'>orquestração de containers</span>. Navego confortavelmente em ecossistemas Kubernetes, otimizando infraestruturas em sabores como <span class='italic'>OpenShift</span> e <span class='italic'>Tanzu</span>. Estou sempre em busca do próximo desafio tecnológico.",
+    "role_web": "Desenvolvedor Web Full-Stack Júnior",
+    "role_ops": "DevOps / AiOps"
+  },
+  "sections": {
+    "competencies": "COMPETÊNCIAS",
+    "experience": "EXPERIÊNCIA"
+  }
+}

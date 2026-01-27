@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ ANOTHER_ONE661 // Cyber_Portfolio_v2
 
-## Getting Started
+> *"A thing of beauty, I know… will never fade away."*  
+> — **Johnny Silverhand**
 
-First, run the development server:
+![Build Status](https://img.shields.io/badge/Build-Optimized-00f0ff?style=for-the-badge&logo=nextdotjs)
+![Version](https://img.shields.io/badge/Version-2.0.26-ff003c?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-fcee09?style=for-the-badge&logo=github)
 
+Un **terminal digital de alto rendimiento** diseñado bajo una estética **Cyberpunk HUD**.  
+Este portafolio no es solo una vitrina de proyectos, sino una **demostración técnica** de arquitectura moderna en **Next.js 16**, orquestación de contenedores y narrativas **multilingües**.
+
+---
+
+## 🌐 Languages / Idiomas / Línguas
+
+- 🇬🇧 English
+- 🇪🇸 Español
+- 🇧🇷 Português
+
+---
+
+## 🇬🇧 English
+
+### Overview
+A digital interface showcasing my journey as a **Junior Full-Stack Developer** and **DevOps Enthusiast**.  
+Engineered with a focus on **system performance**, **containerized architectures** (Kubernetes, Tanzu), and the **practical integration of AI** into modern workflows.
+
+### 🛠️ Tech Stack
+- **Engine:** Next.js 16 
+- **Styling:** Tailwind CSS v4 
+- **I18n:** Custom Middleware-based Localization (EN / ES / PT)
+
+### ⚙️ Quick Start
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+## 🇪🇸 Español
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Resumen
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Una interfaz digital que documenta mi trayectoria como **Junior Full-Stack Developer** y **entusiasta de DevOps**.
+Diseñada con un enfoque en el **rendimiento del sistema**, la **arquitectura de contenedores** (Kubernetes, Tanzu) y la **integración práctica de IA** en flujos de trabajo reales.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🛠️ Tecnologías
 
-## Learn More
+- **Motor:** Next.js 16 
+- **Estilos:** Tailwind CSS v4 
+- **I18n:** Localización basada en Middleware (EN / ES / PT)
 
-To learn more about Next.js, take a look at the following resources:
+### ⚙️ Inicio Rápido
+```bash
+npm install
+npm run dev
+```
+## 🇧🇷 Português
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Visão Geral
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Uma interface digital que documenta minha jornada como **Desenvolvedor Full-Stack Júnior** e **entusiasta de DevOps**.
+Projetada com foco em **desempenho de sistema**, **arquitetura de contêineres** (Kubernetes, Tanzu) e **aplicação prática de IA** em fluxos de trabalho modernos.
 
-## Deploy on Vercel
+### 🛠️Stack Tecnológica
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Motor:** Next.js 16 
+- **Estilização:** Tailwind CSS v4 
+- **I18n:** Localização baseada em Middleware personalizado
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### ⚙️Início rápido
+```bash
+npm install
+npm run dev
+```
+![SAMURAI](https://cyberpunk.fandom.com/wiki/Samurai?file=CP2077_Samurai_Logo.jpeg)

@@ -15,9 +15,9 @@ const getTranslation = async (lng: string) => {
   const locales: Record<string, any> = {
     es: () => import('@/locales/es.json').then((module) => module.default),
     en: () => import('@/locales/en.json').then((module) => module.default),
+    pt: () => import('@/locales/pt.json').then((module) => module.default),
   };
 
-  // Si el idioma no existe (como favicon.ico), devolvemos español por defecto
   const fetchLocale = locales[lng] || locales.es;
   return await fetchLocale();
 };
@@ -98,16 +98,13 @@ export default async function Home({params} : PageProps) {
 
           {/* SECCIÓN COMPETENCIAS CON FONDO FIJO (PROFICIENCY) */}
           <section className="relative w-full overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.4)] border-y-4 border-cyber-dark">
-            {/* Div para el fondo fijo */}
             <div 
               className="absolute inset-0 z-0 bg-fixed bg-center bg-no-repeat bg-cover opacity-60"
               style={{ backgroundImage: "url('/images/profbg.webp')" }}
             />
             
-            {/* Overlay para contraste */}
             <div className="absolute inset-0 bg-cyber-dark/40 backdrop-blur-[1px] z-10"></div>
 
-            {/* Contenido de la sección */}
             <div className="relative z-20 p-8 md:p-16">
               <h2 className="font-cyber text-3xl md:text-5xl text-cyber-yellow mb-12 tracking-[0.2em] italic drop-shadow-[3px_3px_0px_#000]" >
                 {dict.sections.competencies}

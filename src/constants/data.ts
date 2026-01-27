@@ -7,7 +7,6 @@ export const SKILLS = [
   { id: 'mysql' , name: 'MySQL', icon: '/images/mysql.webp' , url: 'https://dev.mysql.com/doc/' },
   { id: 'php', name: 'PHP' , icon: '/images/php.webp', url: 'https://www.php.net/docs.php'},
   { id: 'html', name: 'HTML/CSS/JS Vanilla' , icon: '/images/html.webp', url: 'https://html.spec.whatwg.org/multipage/'},
-  // ... añade más fácilmente
 ];
 
 export const EXPERIENCES = [

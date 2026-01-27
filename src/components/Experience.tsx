@@ -14,7 +14,6 @@ interface ExperienceProps {
 export default function ExperienceCard({exp} : ExperienceProps) {
   return (
     <div className="flex flex-col md:flex-row gap-8 bg-white/40 backdrop-blur-md p-8 border-l-[12px] border-cyber-dark hover:border-cyber-red transition-all group shadow-[10px_10px_0px_rgba(0,0,0,0.3)]">
-      {/* Contenedor de logo más grande y responsive */}
       <div className="w-full md:w-56 h-32 relative bg-white border-2 border-cyber-dark shrink-0 overflow-hidden shadow-inner">
         <Image 
           src={exp.image} 

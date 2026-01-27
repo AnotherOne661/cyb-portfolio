@@ -22,8 +22,8 @@ export const EXPERIENCES = [
     company: "Nuxia",
     role: "Web Dev | Kubernetes | Tanzu | AIDev",
     period: "2025 - 2026",
-    image: "/images/chip7.webp",
+    image: "/images/nuxia.webp",
     location: "Madrid, Spain",
-    url: "https://chip7.pt/"
+    url: "https://nuxia.tech/"
   }
 ];

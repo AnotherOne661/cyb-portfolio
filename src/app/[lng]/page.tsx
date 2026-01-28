@@ -73,7 +73,7 @@ export default async function Home({params} : PageProps) {
                 <div className="absolute -left-4 top-0 h-full w-1 bg-gradient-to-b from-cyber-red via-cyber-blue to-transparent"></div>
                 
                 <div className="font-play space-y-4 bg-gradient-to-b from-cyber-red/25 via-cyber-red/25 to-cyber-blue/25 p-6 border-l-4 border-cyber-blue shadow-lg backdrop-blur-sm">
-                                  <p className="text-xl md:text-2xl font-bold text-black/90 leading-relaxed text-pretty" dangerouslySetInnerHTML={{ __html: dict.hero.bio_p1 }}>
+                  <p className="text-xl md:text-2xl font-bold text-black/90 leading-relaxed text-pretty" dangerouslySetInnerHTML={{ __html: dict.hero.bio_p1 }}>
                   </p>
                   
                   <p className="text-lg md:text-xl font-medium text-black/70 leading-relaxed border-l-2 border-black/20 pl-4" dangerouslySetInnerHTML={{ __html: dict.hero.bio_p2 }}>

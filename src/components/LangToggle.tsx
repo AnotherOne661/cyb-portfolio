@@ -33,7 +33,7 @@ export default function LangToggle() {
       {/* Botón Principal */}
       <button 
         onClick={() => setIsOpen(!isOpen)}
-        className="font-cyber text-[10px] md:text-xs tracking-widest bg-cyber-red text-white px-6 py-2 skew-x-[-12deg] hover:bg-cyber-blue transition-all duration-300 shadow-[4px_4px_0px_#000] flex items-center gap-2"
+        className="font-play text-[10px] md:text-xs tracking-widest bg-cyber-red text-white px-6 py-2 skew-x-[-12deg] hover:bg-cyber-blue transition-all duration-300 shadow-[4px_4px_0px_#000] flex items-center gap-2"
       >
         {currentLang.label}
         <span className={`transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>▼</span>

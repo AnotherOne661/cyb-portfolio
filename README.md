@@ -1,4 +1,4 @@
-# ⚡ ANOTHER_ONE661 // Cyber_Portfolio_v2
+# ANOTHER_ONE661 // Cyber_Portfolio_v2
 
 > *"A thing of beauty, I know… will never fade away."*  
 > — **Johnny Silverhand**

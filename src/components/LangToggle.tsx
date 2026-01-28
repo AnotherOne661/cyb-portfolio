@@ -47,7 +47,7 @@ export default function LangToggle() {
               <button
                 key={lang.code}
                 onClick={() => changeLanguage(lang.code)}
-                className={`px-4 py-3 text-left font-cyber text-[10px] tracking-[0.2em] transition-colors
+                className={`px-4 py-3 text-left font-play text-[10px] tracking-[0.2em] transition-colors
                   ${currentLang.code === lang.code 
                     ? 'bg-cyber-blue text-cyber-dark font-black' 
                     : 'text-cyber-blue hover:bg-cyber-blue/20'

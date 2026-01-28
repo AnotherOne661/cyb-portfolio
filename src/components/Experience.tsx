@@ -50,7 +50,7 @@ export default function ExperienceCard({ exp }: ExperienceProps) {
             </h3>
           </a>
           
-          <span className="bg-black text-cyber-yellow text-sm px-3 py-1 font-cyber tracking-widest self-start">
+          <span className="bg-black text-cyber-yellow text-sm px-3 py-1 font-play tracking-widest self-start">
             {exp.period}
           </span>
         </div>

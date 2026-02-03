@@ -1,0 +1,2 @@
+- Añadir robots.txt
+- 

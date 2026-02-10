@@ -7,7 +7,6 @@ export default function Footer() {
         
         <div className="flex justify-center md:justify-start gap-6 font-play text-sm tracking-widest">
           <a href="https://github.com/AnotherOne661" className="hover:text-cyber-blue transition-colors underline underline-offset-8">GITHUB</a>
-          <a href="#" className="hover:text-cyber-blue transition-colors underline underline-offset-8">LINKEDIN</a>
         </div>
 
         <div className="flex justify-center order-first md:order-none">

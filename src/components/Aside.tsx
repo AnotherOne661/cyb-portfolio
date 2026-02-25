@@ -1,6 +1,6 @@
 const projects = [
-  { name: "Cyberpunk RED Dataterm / GM Screen", href: "https://anothersdataterm.vercel.app" },
-  { name: "Basic Portfolio", href: "https://anotherone-portfolio.vercel.app" },
+  { name: "Cyberpunk RED Dataterm / GM Screen", href: "https://anothersdataterm.vercel.app" },  
+  { name: "AI Summarizer with RAG integration", href:"https://github.com/AnotherOne661/summarizer/tree/main"},
 ];
 
 export default function Aside() {

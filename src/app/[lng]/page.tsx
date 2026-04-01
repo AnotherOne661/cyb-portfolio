@@ -132,8 +132,8 @@ export default async function Home({params} : PageProps) {
 
           <section className="p-8 md:p-20 bg-slate-50/50">
             <div className="flex justify-between items-end mb-12 border-b border-slate-200 pb-6">
-              <div>
-                <h2 className="font-cyber text-3xl md:text-4xl mb-10 tracking-[0.15em] border-l-8 border-cyber-dark pl-4  drop-shadow-[3px_3px_0px_#000] uppercase text-cyber-yellow">
+              <div className="w-full overflow-hidden">
+                <h2 className="text-2xl md:text-4xl font-cyber uppercase tracking-tight border-l-4 border-corp-accent pl-4 mb-10 text-cyber-yellow drop-shadow-[3px_3px_0px_#000]">
                   {dict.sections.collaborators}
                 </h2>
               </div>

@@ -38,3 +38,26 @@ export const EXPERIENCES = [
     url: "https://nuxia.tech/"
   }
 ];
+
+export const COLLABORATORS = [
+  {
+    name: "Laboral Kutxa",
+    icon: "/images/laboralkutxa2.webp",
+    url: "https://www.laboralkutxa.com/"
+  },
+  {
+    name: "Bonarea",
+    icon: "/images/bonarea.webp",
+    url: "https://www.bonarea.com/"
+  },
+  {
+    name: "Gobierno de España",
+    icon: "/images/aead.webp",
+    url: "https://administracion.gob.es/pag_Home/index.html"
+  },
+  {
+    name: "Ricoh",
+    icon: "/images/ricoh.webp",
+    url: "https://www.ricoh.com/"
+  }
+];

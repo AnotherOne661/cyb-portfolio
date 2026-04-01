@@ -1,11 +1,12 @@
 import Image from "next/image";
-import { SKILLS, EXPERIENCES } from "@/constants/data";
+import { SKILLS, EXPERIENCES, COLLABORATORS } from "@/constants/data";
 import Waves from "@/components/Waves";
 import Aside from "@/components/Aside";
 import ExperienceCard from "@/components/Experience";
 import SkillCard from "@/components/SkillCard";
 import Footer from "@/components/Footer";
 import LangToggle from "@/components/LangToggle";
+import CollaboratorCard from "@/components/CollaboratorCard";
 
 interface PageProps{
   params: Promise<{lng: string}>
@@ -125,6 +126,25 @@ export default async function Home({params} : PageProps) {
             <div className="grid gap-8">
               {EXPERIENCES.map((exp, index) => (
                 <ExperienceCard key={index} exp={exp} />
+              ))}
+            </div>
+          </section>
+
+          <section className="p-8 md:p-20 bg-slate-50/50">
+            <div className="flex justify-between items-end mb-12 border-b border-slate-200 pb-6">
+              <div>
+                <h2 className="font-cyber text-3xl md:text-4xl mb-10 tracking-[0.15em] border-l-8 border-cyber-dark pl-4  drop-shadow-[3px_3px_0px_#000] uppercase text-cyber-yellow">
+                  {dict.sections.collaborators}
+                </h2>
+              </div>
+              <span className="text-[10px] font-mono text-slate-300 hidden md:block drop-shadow-[1px_1px_0px_#000]">
+                NODE_NETWORK // 004
+              </span>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {COLLABORATORS.map((collab, index) => (
+                <CollaboratorCard key={index} collab={collab} />
               ))}
             </div>
           </section>

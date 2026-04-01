@@ -16,18 +16,14 @@ export default function CollaboratorCard({ collab }: CollaboratorProps) {
       rel="noopener noreferrer" 
       className="group relative flex items-center gap-6 bg-white border border-slate-100 p-6 transition-all duration-300 hover:border-corp-accent/30 hover:shadow-[0_15px_35px_rgba(0,0,0,0.05)] hover:-translate-y-1"
     >
-      {/* CONTENEDOR DE IMAGEN: 
-          Aumentado a w-20 h-20 (80px) para darle más presencia al colaborador.
-      */}
+
       <div className="relative w-20 h-20 shrink-0 rounded-full overflow-hidden border border-slate-200 bg-slate-50 transition-transform duration-500 group-hover:scale-105">
 <Image 
           src={collab.icon} 
           alt={collab.name} 
           fill 
           sizes="80px"
-          /* CAMBIO CLAVE: 'object-contain' mantiene la proporción.
-             'p-3' (arriba) evita que se estire hasta los bordes.
-          */
+
           className="object-contain grayscale group-hover:grayscale-0 transition-all duration-700 opacity-90 group-hover:opacity-100"
         />
       </div>

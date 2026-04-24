@@ -130,7 +130,7 @@ export default async function Home({params} : PageProps) {
             </div>
           </section>
 
-          <section className="p-8 md:p-20 bg-slate-50/50">
+          <section className="p-8 md:p-20 bg-slate-50/50 hidden">
             <div className="flex justify-between items-end mb-12 border-b border-slate-200 pb-6">
               <div className="w-full overflow-hidden">
                 <h2 className="text-2xl md:text-4xl font-cyber uppercase tracking-tight border-l-4 border-corp-accent pl-4 mb-10 text-cyber-yellow drop-shadow-[3px_3px_0px_#000]">

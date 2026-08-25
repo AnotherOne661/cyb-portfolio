@@ -8,6 +8,61 @@
   "sections": {
     "competencies": "COMPETÊNCIAS",
     "experience": "EXPERIÊNCIA",
-    "collaborators": "COLABORADORES"
+    "collaborators": "COLABORADORES",
+    "realExperience": "EXPERIÊNCIAS REAIS"
+  },
+  "experiences": {
+    "chip7": {
+      "role": "Estagiário de Técnico de Informática",
+      "period": "2023 - 2024",
+      "location": "Maia, Porto, Portugal"
+    },
+    "nuxia": {
+      "role": "Desenvolvimento Web | Kubernetes | Tanzu | Desenvolvimento de IA",
+      "period": "2025 - 2026",
+      "location": "Madrid, Espanha"
+    }
+  },
+  "collaborators": {
+    "laboralKutxa": {
+      "role": "Atividades do Dia 2; configuração de operadores OpenShift (OADP, GitOps, etc.) e implementação de aplicações através de CI/CD. Configuração de sistemas de backup e restauração, bem como prevenção de desastres."
+    },
+    "bonarea": {
+      "role": "Atividades do Dia 1 e Dia 2; criação de clusters, gestão de K-API em ambientes VMware, atualizações, manutenção, instalação de pacotes, implementação de aplicações, configuração de sistemas de backup e restauração, bem como prevenção de desastres."
+    },
+    "gobiernoEspana": {
+      "role": "Atividades do Dia 2; instalação de pacotes e monitorização utilizando Grafana, Prometheus e Fluent-Bit. Gestão de backups com Velero e restauração de dados, bem como prevenção de desastres."
+    },
+    "ricoh": {
+      "role": "Intermediário"
+    },
+    "inditex": {
+      "role": "Configuração de armazenamento CSI através de VSAN."
+    },
+    "broadcom": {
+      "role": "Intermediário"
+    }
+  },
+  "collaboratorsAnon": {
+    "banking": {
+      "sector": "Bancário",
+      "description": "Um importante banco espanhol com atividade no norte do país.",
+      "role": "Atividades do Dia 2; configuração de operadores OpenShift (OADP, GitOps, etc.) e implementação de aplicações através de CI/CD. Configuração de sistemas de backup e restauração, bem como prevenção de desastres."
+    },
+    "retail": {
+      "sector": "Retalho",
+      "description": "Cadeia de supermercados baseada num modelo do campo à mesa sem intermediários e com postos de combustível próprios.",
+      "role": "Atividades do Dia 1 e Dia 2; criação de clusters, gestão de K-API em ambientes VMware, atualizações, manutenção, instalação de pacotes, implementação de aplicações, configuração de sistemas de backup e restauração, bem como prevenção de desastres."
+    },
+    "government": {
+      "sector": "Governamental",
+      "description": "Organismo público responsável pela coordenação da informática e dos serviços digitais.",
+      "role": "Atividades do Dia 2; instalação de pacotes e monitorização utilizando Grafana, Prometheus e Fluent-Bit. Gestão de backups com Velero e restauração de dados, bem como prevenção de desastres."
+    },
+    "textile": {
+      "sector": "Têxtil",
+      "description": "Empresa líder do IBEX 35 e líder do setor têxtil europeu.",
+      "role": "Configuração de armazenamento CSI através de VSAN."
+    }
   }
 }

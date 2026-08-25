@@ -1,5 +1,10 @@
 import Image from "next/image";
-import { SKILLS, EXPERIENCES, COLLABORATORS } from "@/constants/data";
+import {
+  SKILLS,
+  EXPERIENCES,
+  COLLABORATORS,
+  COLLABORATORS_ANON,
+} from "@/constants/data";
 import Waves from "@/components/Waves";
 import Aside from "@/components/Aside";
 import ExperienceCard from "@/components/Experience";
@@ -7,27 +12,47 @@ import SkillCard from "@/components/SkillCard";
 import Footer from "@/components/Footer";
 import LangToggle from "@/components/LangToggle";
 import CollaboratorCard from "@/components/CollaboratorCard";
+import CollaboratorCardAnon from "@/components/CollaboratorCardAnon";
 
-interface PageProps{
-  params: Promise<{lng: string}>
+interface PageProps {
+  params: Promise<{ lng: string }>;
 }
 
 const getTranslation = async (lng: string) => {
   const locales: Record<string, any> = {
-    es: () => import('@/locales/es.json').then((module) => module.default),
-    en: () => import('@/locales/en.json').then((module) => module.default),
-    pt: () => import('@/locales/pt.json').then((module) => module.default),
+    es: () =>
+      import("@/locales/es.json").then((module) => module.default),
+
+    en: () =>
+      import("@/locales/en.json").then((module) => module.default),
+
+    pt: () =>
+      import("@/locales/pt.json").then((module) => module.default),
   };
 
   const fetchLocale = locales[lng] || locales.es;
+
   return await fetchLocale();
 };
-  
-export default async function Home({params} : PageProps) {
 
+export default async function Home({ params }: PageProps) {
   const { lng } = await params;
+
   const dict = await getTranslation(lng);
- 
+
+  const translatedCollaboratorsAnon = COLLABORATORS_ANON.map(
+    (collaborator) => ({
+      ...collaborator,
+      ...dict.collaboratorsAnon[collaborator.id],
+    })
+  );
+
+  const translatedCollaborators = COLLABORATORS.map(
+    (collaborator) => ({
+      ...collaborator,
+      ...dict.collaborators[collaborator.id],
+    })
+  );
   return (
     <div className="relative min-h-screen flex flex-col font-play">
       {/* HEADER */}
@@ -117,6 +142,31 @@ export default async function Home({params} : PageProps) {
               </div>
             </div>
           </section>
+          {/* EXPERIENCIA REAL*/}
+          <section >
+            <h2 className="font-cyber text-3xl md:text-4xl mb-10 tracking-[0.15em] border-l-8 border-cyber-dark pl-4 uppercase text-edge-cyber">
+               <span className="w-8 h-[2px] bg-corp-accent"></span>
+               {dict.sections.realExperience}
+            </h2>
+            <div className="space-y-2">
+              {translatedCollaboratorsAnon.map((collab, index) => (
+                <CollaboratorCardAnon key={index} collaborator_anon={collab} />
+              ))}
+            </div>
+          </section>
+
+          {/* EXPERIENCIA REAL W Info*/}
+          <section className="hidden">
+            <h2 className="text-heading text-4xl mb-12 text-corp-navy flex items-center gap-4">
+               <span className="w-8 h-[2px] bg-corp-accent"></span>
+               {dict.sections.realExperience}
+            </h2>
+            <div className="space-y-2">
+              {translatedCollaborators.map((collab, index) => (
+                <CollaboratorCard key={index} collab={collab} />
+              ))}
+            </div>
+          </section>
 
           {/* SECCIÓN EXPERIENCIA */}
           <section>
@@ -130,24 +180,6 @@ export default async function Home({params} : PageProps) {
             </div>
           </section>
 
-          <section className="p-8 md:p-20 bg-slate-50/50 hidden">
-            <div className="flex justify-between items-end mb-12 border-b border-slate-200 pb-6">
-              <div className="w-full overflow-hidden">
-                <h2 className="text-2xl md:text-4xl font-cyber uppercase tracking-tight border-l-4 border-corp-accent pl-4 mb-10 text-cyber-yellow drop-shadow-[3px_3px_0px_#000]">
-                  {dict.sections.collaborators}
-                </h2>
-              </div>
-              <span className="text-[10px] font-mono text-slate-300 hidden md:block drop-shadow-[1px_1px_0px_#000]">
-                NODE_NETWORK // 004
-              </span>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {COLLABORATORS.map((collab, index) => (
-                <CollaboratorCard key={index} collab={collab} />
-              ))}
-            </div>
-          </section>
         </main>
       </div>
 

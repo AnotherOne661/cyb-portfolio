@@ -4,10 +4,65 @@
     "bio_p2": "I believe a great application requires a rock-solid foundation, which is why I’ve dedicated much of my training to <span class='text-cyber-dark font-black underline decoration-cyber-blue decoration-2'>container orchestration</span>. I navigate comfortably through Kubernetes ecosystems, optimizing infrastructures across flavors like <span class='italic'>OpenShift</span> and <span class='italic'>VMware</span>. I am always on the hunt for the next technological challenge that allows me to keep evolving and delivering value to the dev community.",
     "role_web": "Junior Full-Stack Web Dev",
     "role_ops": "DevOps / AiOps"
-  },
+  },  
   "sections": {
-    "competencies": "COMPETENCIES",
+    "competencies": "SKILLS",
     "experience": "EXPERIENCE",
-    "collaborators": "COLLABORATORS"
+    "collaborators": "COLLABORATORS",
+    "realExperience": "REAL-WORLD EXPERIENCE"
+  },
+  "experiences": {
+    "chip7": {
+      "role": "IT Technician Intern",
+      "period": "2023 - 2024",
+      "location": "Maia, Porto, Portugal"
+    },
+    "nuxia": {
+      "role": "Web Development | Kubernetes | Tanzu | AI Development",
+      "period": "2025 - 2026",
+      "location": "Madrid, Spain"
+    }
+  },
+  "collaborators": {
+    "laboralKutxa": {
+      "role": "Day 2 activities; setup of OpenShift operators (OADP, GitOps, etc.) and application deployment through CI/CD. Configuration of backup and restoration systems, as well as disaster prevention."
+    },
+    "bonarea": {
+      "role": "Day 1 and Day 2 activities; cluster creation, K-API management in VMware environments, upgrades, maintenance, package installation, application deployment, backup and restoration system configuration, as well as disaster prevention."
+    },
+    "gobiernoEspana": {
+      "role": "Day 2 activities; package installation and monitoring using Grafana, Prometheus and Fluent-Bit. Backup management with Velero and data restoration, as well as disaster prevention."
+    },
+    "ricoh": {
+      "role": "Intermediary"
+    },
+    "inditex": {
+      "role": "CSI storage configuration using VSAN."
+    },
+    "broadcom": {
+      "role": "Intermediary"
+    }
+  },
+  "collaboratorsAnon": {
+    "banking": {
+      "sector": "Banking",
+      "description": "A major Spanish bank operating in the northern part of the country.",
+      "role": "Day 2 activities; setup of OpenShift operators (OADP, GitOps, etc.) and application deployment through CI/CD. Configuration of backup and restoration systems, as well as disaster prevention."
+    },
+    "retail": {
+      "sector": "Retail",
+      "description": "A supermarket chain based on a farm-to-table model without intermediaries and with its own petrol stations.",
+      "role": "Day 1 and Day 2 activities; cluster creation, K-API management in VMware environments, upgrades, maintenance, package installation, application deployment, backup and restoration system configuration, as well as disaster prevention."
+    },
+    "government": {
+      "sector": "Government",
+      "description": "A public organization responsible for coordinating IT and digital services.",
+      "role": "Day 2 activities; package installation and monitoring using Grafana, Prometheus and Fluent-Bit. Backup management with Velero and data restoration, as well as disaster prevention."
+    },
+    "textile": {
+      "sector": "Textile",
+      "description": "A leading IBEX 35 company and European textile industry leader.",
+      "role": "CSI storage configuration using VSAN."
+    }
   }
 }

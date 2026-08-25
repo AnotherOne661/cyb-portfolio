@@ -23,8 +23,6 @@ export const SKILLS = [
   { id: 'openshift', name: "OpenShift", icon: '/images/openshift.webp', url: 'https://www.redhat.com/es/technologies/cloud-computing/openshift'},
   { id: 'OADP', name: "OADP", icon: '/images/OADP.webp', url: 'https://access.redhat.com/articles/5456281#what-is-oadp-2'},
   { id: 'GitOps', name: "GitOps", icon: '/images/gitops.webp', url: 'https://www.redhat.com/es/topics/devops/what-is-gitops'}
-
-
 ];
 
 export const EXPERIENCES = [
@@ -45,26 +43,54 @@ export const EXPERIENCES = [
     url: "https://nuxia.tech/"
   }
 ];
-
 export const COLLABORATORS = [
   {
+    id: "Laboral Kutxa",
     name: "Laboral Kutxa",
-    icon: "/images/laboralkutxa2.webp",
-    url: "https://www.laboralkutxa.com/"
+    icon: "/images/laboralkutxa.webp",
+    url: "https://www.laboralkutxa.com/",
+    role: "Actividades Día 2; set up de operadores de Openshift (OADP, GitOps, etc.) y despliegue de aplicaciones mediante CI/CD. Configuración de sistemas de backup y restauración, así como prevención de desastres"
   },
   {
+    id: "Bonarea",
     name: "Bonarea",
     icon: "/images/bonarea.webp",
-    url: "https://www.bonarea.com/"
+    url: "https://www.bonarea.com/",
+    role: "Actividades Día 1, Día 2; Creación de clusteres, manejo de K-API en entornos de VMWare, actualizaciones, mantenimiento, instalación de paquetería, despliegue de aplicaciones, configuración de sistemas de backup y restauración, así como prevención de desastres"
   },
   {
+    id: "Gobierno de España",
     name: "Gobierno de España",
     icon: "/images/aead.webp",
-    url: "https://administracion.gob.es/pag_Home/index.html"
+    url: "https://administracion.gob.es/pag_Home/index.html",
+    role: "Actividades Día 2; Instalación de paquetería, monitoreo; Grafana, Prometheus, Fluent-Bit. Y gestión de backups (Velero) y restauración de datos, así como prevención de desastres"
   },
   {
+    id: "Ricoh",
     name: "Ricoh",
     icon: "/images/ricoh.webp",
-    url: "https://www.ricoh.com/"
-  }
+    url: "https://www.ricoh.com/",
+    role: "Intermediario"
+  },
+  {
+    id: "Inditex",
+    name: "Inditex",
+    icon: "/images/inditex.webp",
+    url: "https://www.inditex.com/itxcomweb/es/es/home",
+    role: "Configuración de CSI de almacenamiento mediante VSAN"
+  },
+  {
+    id: "Broadcom",
+    name: "Broadcom",
+    icon: "/images/broadcom.svg",
+    url: "https://www.broadcom.com/",
+    role: "Intermediario"
+  },
+];
+
+export const COLLABORATORS_ANON = [
+  { id: "banking" },
+  { id: "retail" },
+  { id: "government" },
+  { id: "textile" }
 ];

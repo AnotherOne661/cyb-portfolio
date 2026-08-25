@@ -36,7 +36,7 @@ export const EXPERIENCES = [
   },
   {
     company: "Nuxia",
-    role: "Web Dev | Kubernetes | Tanzu | AIDev",
+    role: "DevOps | AIOps Engineer",
     period: "2025 - 2026",
     image: "/images/nuxia.webp",
     location: "Madrid, Spain",

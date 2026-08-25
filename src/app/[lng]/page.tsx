@@ -91,7 +91,7 @@ export default async function Home({params} : PageProps) {
                   </span>
                 </div>
                 <div className="bg-cyber-red text-white px-4 py-2 font-play text-sm md:text-lg tracking-widest uppercase skew-x-[-12deg]">
-                  DevOps / AiOps
+                  DevOps / AiOps Engineer
                 </div>
               </div>
             </div>

@@ -1,0 +1,29 @@
+# Bloquear el bot de entrenamiento de OpenAI
+User-agent: GPTBot
+Disallow: /
+
+# Bloquear el bot de entrenamiento de Google (Gemini)
+User-agent: Google-Extended
+Disallow: /
+
+# Bloquear el bot de entrenamiento de Anthropic
+User-agent: anthropic-ai
+Disallow: /
+
+# Bloquear el bot de entrenamiento de Meta
+User-agent: Meta-ExternalAgent
+Disallow: /
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+# Bloquear Common Crawl (usado por docenas de empresas de IA)
+User-agent: CCBot
+Disallow: /
+
+# Bloquear otros rastreadores de entrenamiento comunes
+User-agent: Cohere-ai
+Disallow: /
+User-agent: Omgilibot
+Disallow: /
+User-agent: Omgili
+Disallow: /

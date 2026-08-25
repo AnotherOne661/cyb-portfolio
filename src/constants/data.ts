@@ -17,6 +17,13 @@ export const SKILLS = [
   { id: 'prometheus', name: 'Prometheus' , icon: '/images/prometheus.webp', url: 'https://prometheus.io/docs/'},
   { id: 'velero', name: 'Velero' , icon: '/images/velero.webp', url: 'https://velero.io/docs/'},
   { id: 'trident', name: 'Trident' , icon: '/images/trident.webp', url: 'https://netapp-trident.readthedocs.io/en/stable/'},
+  { id: 'RKE2', name: "RKE2", icon: '/images/rke2.webp', url: 'https://docs.rke2.io/'},
+  { id: 'vcf', name: "VCF", icon: '/images/vcf.webp', url: 'https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vcf-9-0-and-later/9-1.html'},
+  { id: 'ansible', name: "Ansible", icon: '/images/ansible.webp', url: 'https://docs.ansible.com/'},
+  { id: 'openshift', name: "OpenShift", icon: '/images/openshift.webp', url: 'https://www.redhat.com/es/technologies/cloud-computing/openshift'},
+  { id: 'OADP', name: "OADP", icon: '/images/OADP.webp', url: 'https://access.redhat.com/articles/5456281#what-is-oadp-2'},
+  { id: 'GitOps', name: "GitOps", icon: '/images/gitops.webp', url: 'https://www.redhat.com/es/topics/devops/what-is-gitops'}
+
 
 ];
 
